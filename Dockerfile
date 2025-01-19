@@ -5,7 +5,7 @@ FROM nginx:latest
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Expose port 80 for HTTP traffic
-EXPOSE 80
+EXPOSE 8080
 
 
 # Start NGINX when the container starts
